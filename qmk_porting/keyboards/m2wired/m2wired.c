@@ -61,7 +61,7 @@ uint32_t bongo_timeout_timer = 0;
 #define BONGO_FRAMES 20
 #define ANIM_SIZE    636 // number of bytes in array, minimize for adequate firmware size, max is 1024
 #define IDLE_FRAMES  1
-#define IDLE_TIMEOUT 800 // the amount of time it takes to return to idle
+#define IDLE_TIMEOUT 5 // the amount of time it takes to return to idle
 
 #define TAP_FRAMES 2
 #define KEYS_SIZE  MATRIX_ROWS *MATRIX_COLS // the number of keys stored in the array that tracks keypresses; how many keys are on the board?
